@@ -7,6 +7,8 @@ Nesse projeto criamos a junção de alguns recursos práticados nos últimos enc
 
 ### __SPLASH__
 
+![1](https://user-images.githubusercontent.com/77402918/114596974-9d9f6b80-9c66-11eb-888a-f3bfa59d21aa.png) 
+
 O que é uma tela de Splash?
 
 Essas telas de aberturas, tecnicamente conhecidas como Splash Screens, são telas que são apresentadas ao usuário no primeiro instante em que ele abre a App, justamente para apresentarmos uma marca, ou então realizarmos algum tipo de pré prossamento que exige alguns segundos.
@@ -66,6 +68,10 @@ public class ConfiguracaoFirebase {
 ### __IMPLEMENTAÇÃO DE IMAGEM REDONDA__
 <BR/>
 
+
+![4](https://user-images.githubusercontent.com/77402918/114598088-e0157800-9c67-11eb-972a-60dca400203f.png)
+
+
 ~~~
 implementation 'de.hdodenhof:circleimageview:3.1.0'
 
@@ -80,7 +86,7 @@ implementation 'de.hdodenhof:circleimageview:3.1.0'
             android:src="@drawable/perfil"/>
 
 ~~~
-# Tela Splash de abertura
+# Tela de abertura
 
 ![1](https://user-images.githubusercontent.com/77402918/114596974-9d9f6b80-9c66-11eb-888a-f3bfa59d21aa.png)
 
