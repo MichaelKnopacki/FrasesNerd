@@ -1,6 +1,11 @@
 # FrasesNerd
 ![frases](https://user-images.githubusercontent.com/77402918/114590603-5a8dca00-9c5f-11eb-8a08-e527212a1e8d.jpg)
 
+![Android](https://img.shields.io/badge/Android-Studio-F21B3F)
+![Linguagem](https://img.shields.io/badge/Linguagem-Java-08BDBD) 
+![Linguagem](https://img.shields.io/badge/Linguagem-XML-3A5683) 
+![Banco de Dados](https://img.shields.io/badge/Banco_de_dados-Firebase-F7DF1E) 
+
 ## Descrição
 
 Nesse projeto criamos a junção de alguns recursos práticados nos últimos encontros. Abaixo vou citar um a um:
