@@ -83,8 +83,6 @@ implementation 'de.hdodenhof:circleimageview:3.1.0'
 
 ## Como contribuir
 
-Aqui você pode colocar
-
 Contribuições são sempre bem-vindas. Existem várias maneiras de contribuir com este projeto, como:
 
 💪 Se juntando ao time de desenvolvimento.<br/>
