@@ -1,4 +1,33 @@
 # FrasesNerd
+![frases](https://user-images.githubusercontent.com/77402918/114590603-5a8dca00-9c5f-11eb-8a08-e527212a1e8d.jpg)
+
+## Descrição
+
+Nesse projeto criamos a junção de alguns recursos práticados nos últimos encontros. Abaixo vou citar um a um:
+
+### SPLASH
+
+O que é uma tela de Splash?
+
+Essas telas de aberturas, tecnicamente conhecidas como Splash Screens, são telas que são apresentadas ao usuário no primeiro instante em que ele abre a App, justamente para apresentarmos uma marca, ou então realizarmos algum tipo de pré prossamento que exige alguns segundos.
+
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                abrirAutenticacao();
+            }
+        }, 3000);
+    }
+
+
+    private void abrirAutenticacao(){
+        Intent i = new Intent(MainActivity.this, AutenticacaoActivity.class);
+        startActivity(i);
+        finish();
+    }
+
+
 
 ## Como contribuir
 
