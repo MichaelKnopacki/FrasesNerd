@@ -80,6 +80,18 @@ implementation 'de.hdodenhof:circleimageview:3.1.0'
             android:src="@drawable/perfil"/>
 
 ~~~
+# Tela Splash de abertura
+
+![1](https://user-images.githubusercontent.com/77402918/114596974-9d9f6b80-9c66-11eb-888a-f3bfa59d21aa.png)
+
+# Tela de acesso e/ou registro
+
+![2](https://user-images.githubusercontent.com/77402918/114597021-aa23c400-9c66-11eb-8f0a-9e39aa66fd5e.png)
+
+# Tela de registro
+
+![3](https://user-images.githubusercontent.com/77402918/114597073-b6a81c80-9c66-11eb-89e4-2470b667d4b6.png)
+
 
 ## Como contribuir
 
