@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    tools:context=".activity.RegistrarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            app:civ_border_color="@color/preto"
+            app:civ_border_width="2dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/perfil"/>
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btg_custom"
+            android:hint="Nome"
+            android:layout_marginBottom="8dp"
+            android:inputType="text"
+            android:padding="16dp"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btg_custom"
+            android:hint="e-mail"
+            android:layout_marginBottom="8dp"
+            android:inputType="text"
+            android:padding="16dp"/>
+
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btg_custom"
+            android:hint="Senha"
+            android:layout_marginBottom="8dp"
+            android:inputType="text"
+            android:padding="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSalvar"
+            android:padding="16dp"
+            android:onClick="validarDadosEmpresas"
+            android:backgroundTint="@color/amarelo"
+            android:textColor="@color/branco"
+            android:text="Salvar"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/frases"/>
+
+    </LinearLayout>
+
+</LinearLayout>
